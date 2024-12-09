@@ -1,0 +1,55 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+#ctn-1{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+}
+#btn-1{
+    background-color: tomato;
+}
+#ctn-2{
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+}
+#toggle{
+    display: block;
+    margin: 10px;
+}
+#slider{
+    height: 500px;
+    width: 700px;
+    position: relative;
+    overflow: hidden;
+}
+#slider img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 0.5s opacity ease;
+    opacity: 0;
+}
+#slider img.active{
+    opacity: 1;
+}
+#prev{
+    height: 50px;
+    width: 30px;
+    position: absolute;
+    bottom: 225px;
+    left: 25px;
+}
+#next{
+    height: 50px;
+    width: 30px;
+    position: absolute;
+    bottom: 225px;
+    left: 670px;
+}
